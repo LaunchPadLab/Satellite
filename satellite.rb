@@ -1,7 +1,7 @@
 require 'sinatra'
 
   get '/' do
-    "Satellite Contact Form"
+    erb :home
   end
 
   get '/contact' do
@@ -30,5 +30,5 @@ require 'sinatra'
   end
 
   get '/success' do
-  	"Thanks for your contacting us. We'll be in touch soon."
+    erb :success
   end
