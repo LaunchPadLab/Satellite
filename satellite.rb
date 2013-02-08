@@ -18,11 +18,11 @@ require 'sinatra'
       :port => '587',
       :via => :smtp,
       :via_options => {
-        :address              => 'smtp.gmail.com',
+        :address              => 'smtp.sendgrid.net',
         :port                 => '587',
         :enable_starttls_auto => true,
-        :user_name            => ENV['EMAIL_USERNAME'],
-        :password             => ENV['EMAIL_PASSWORD'],
+        :user_name            => ENV['SENDGRID_USERNAME'],
+        :password             => ENV['SENDGRID_PASSWORD'],
         :authentication       => :plain,
         :domain               => 'satellite.herokuapp.com'
       })
