@@ -15,11 +15,3 @@ Don't forget to style it. Some examples:
     	height: 500px;
 			width: 400px;
     }
-
-    satellite-form input {
-    	width: 200px
-    }
-
-    satellite-form textarea {
-    	height: 80px
-    }
