@@ -3,5 +3,5 @@ require 'bundler'
 
 Bundler.require
 
-require './app'
+require './satellite'
 run Satellite
